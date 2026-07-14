@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TRUEJOKER</title>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: cyan;
+            font-size: 50px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>TRUEJOKER</h1>
+<p>Welcome to the future of technology.</p>
+
+<button onclick="welcome()">Enter</button>
+
+<script>
+function welcome() {
+    alert("Welcome to TRUEJOKER! 🚀");
+}
+</script>
+
+</body>
+</html>
