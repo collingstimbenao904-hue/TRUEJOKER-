@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0b0b0d;
+    color: #eeeeee;
+    font-family: Georgia, serif;
+    line-height: 1.7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: #111114;
+    border-bottom: 1px solid #302719;
+}
+
+header h2 {
+    color: #c9a66b;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+nav a {
+    color: #eeeeee;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #c9a66b;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.9)),
+        radial-gradient(circle, #393024, #0b0b0d 75%);
+}
+
+.tagline {
+    color: #c9a66b;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 7vw, 75px);
+    line-height: 1.15;
+    color: #e8d5b5;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #bdb8b0;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 28px;
+    background: #c9a66b;
+    color: #111;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
+    transition: .3s;
+}
+
+.button:hover {
+    background: #f0d5a4;
+    transform: translateY(-3px);
+}
+
+#books {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+#books h2,
+#about h2 {
+    color: #c9a66b;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.book {
+    background: #151518;
+    border: 1px solid #302719;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 650px;
+    transition: .3s;
+}
+
+.book:hover {
+    border-color: #c9a66b;
+    transform: translateY(-4px);
+}
+
+.book h3 {
+    color: #e8d5b5;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.book p {
+    color: #aaa49b;
+}
+
+#about {
+    padding: 80px 10%;
+    text-align: center;
+    background: #111114;
+}
+
+#about p {
+    max-width: 650px;
+    margin: auto;
+    color: #bdb8b0;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #080809;
+    color: #777;
+    font-size: 13px;
+}
+
